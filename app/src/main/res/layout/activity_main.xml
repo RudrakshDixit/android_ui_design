@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+        <RelativeLayout android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:id="@+id/profileimagebg"
+                        android:background="#D3D3D3">
+
+
+            <ImageView android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:id="@+id/profileimage"
+                       android:src="@drawable/white_person"
+            />
+
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_below="@+id/profileimagebg"
+                        android:id="@+id/secondlayout"
+        >
+            <RelativeLayout
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:id="@+id/field1"
+            >
+                <ImageView android:layout_width="wrap_content"
+                           android:id="@+id/darkprofile"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/dark_person"
+                />
+
+                <android.support.design.widget.TextInputLayout
+                        android:id="@+id/text_input_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/darkprofile">
+
+                    <EditText
+
+                            android:id="@+id/editText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:hint="Name "
+                            android:maxLines="1"
+                    />
+                </android.support.design.widget.TextInputLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:layout_below="@id/field1"
+                    android:id="@+id/field2"
+                    android:layout_marginTop="8dp"
+            >
+                <ImageView android:layout_width="wrap_content"
+                           android:id="@+id/phone"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/phone"
+                />
+
+                <android.support.design.widget.TextInputLayout
+                        android:id="@+id/text_input_layout2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/phone">
+
+                    <EditText
+
+                            android:id="@+id/editText2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:hint="Phone "
+                            android:maxLines="1"
+                    />
+                </android.support.design.widget.TextInputLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:layout_below="@id/field2"
+                    android:id="@+id/field3"
+                    android:layout_marginTop="8dp"
+            >
+                <ImageView android:layout_width="wrap_content"
+                           android:id="@+id/email"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/email"
+                />
+
+                <android.support.design.widget.TextInputLayout
+                        android:id="@+id/text_input_layout3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/email">
+
+                    <EditText
+
+                            android:id="@+id/editText3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:hint="Email "
+                            android:maxLines="1"
+                    />
+                </android.support.design.widget.TextInputLayout>
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:layout_below="@id/field3"
+                    android:id="@+id/field4"
+                    android:layout_marginTop="8dp"
+            >
+                <ImageView android:layout_width="wrap_content"
+                           android:id="@+id/address"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/location"
+                />
+
+                <android.support.design.widget.TextInputLayout
+                        android:id="@+id/text_input_layout4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/address">
+
+                    <EditText
+
+                            android:id="@+id/editText4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:hint="Address "
+                            android:maxLines="1"
+                    />
+                </android.support.design.widget.TextInputLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:layout_below="@id/field4"
+                    android:id="@+id/field5"
+                    android:layout_marginTop="8dp"
+            >
+                <ImageView android:layout_width="wrap_content"
+                           android:id="@+id/company"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/company"
+                />
+
+                <android.support.design.widget.TextInputLayout
+                        android:id="@+id/text_input_layout5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/company">
+
+                    <EditText
+
+                            android:id="@+id/editText5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:hint="Company "
+                            android:maxLines="1"
+                    />
+                </android.support.design.widget.TextInputLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:layout_below="@id/field5"
+                    android:id="@+id/field6"
+                    android:layout_marginTop="8dp"
+            >
+                <ImageView android:layout_width="wrap_content"
+                           android:id="@+id/title"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/company"
+                />
+
+                <android.support.design.widget.TextInputLayout
+                        android:id="@+id/text_input_layout6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/title">
+
+                    <EditText
+
+                            android:id="@+id/editText6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:hint="Title "
+                            android:maxLines="1"
+                    />
+                </android.support.design.widget.TextInputLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:layout_below="@id/field6"
+                    android:id="@+id/field7"
+                    android:layout_marginTop="8dp"
+            >
+                <ImageView android:layout_width="wrap_content"
+                           android:id="@+id/website"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/website"
+                />
+
+                <android.support.design.widget.TextInputLayout
+                        android:id="@+id/text_input_layout7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/website">
+
+                    <EditText
+
+                            android:id="@+id/editText7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:hint="Website "
+                            android:maxLines="1"
+                    />
+                </android.support.design.widget.TextInputLayout>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+        <ImageButton
+                android:id="@+id/cameraimage"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/camera"
+                android:layout_above="@id/secondlayout"
+                android:background="@drawable/circular_image"
+                android:layout_marginBottom="-34dp"/> <!-- change this -20 according to screen -->
+
+    </RelativeLayout>
+</ScrollView>
+
